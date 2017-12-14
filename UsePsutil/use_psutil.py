@@ -31,6 +31,9 @@ print(psutil.net_if_stats()) # 获取网络接口状态
 # 获取当前网络连接信息
 print(psutil.net_connections())
 
+# 模拟出ps命令的效果
+print(psutil.test())
+
 # 获取进程信息
 print(psutil.pids()) # 所有进程ID
 p = psutil.Process(3692) # 获取指定进程ID=3776，其实就是当时Python交互环境
