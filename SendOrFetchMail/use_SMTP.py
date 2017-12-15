@@ -20,11 +20,13 @@ msg = MIMEText('<html><body><h1>Hello</h1>' +
 # 然后通过SMTP发出去
 # 输入Email地址和口令
 from_addr = input('From:')
+
 password = input('Password:')
+
 # 输入收件人地址
 to_addr = input('To:')
 # 输入SMIP服务器地址
-smtp_server = input('SMTP server:')
+smtp_server = input('Server:')
 
 
 import smtplib
