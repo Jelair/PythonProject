@@ -4,4 +4,4 @@ python practice and make some small lib
 send mail
 
 get songs
-![Image text](img-folder/get_song.png)
+![Alt text](https://github.com/SimpleFly2016/PythonProject/raw/master/img_folder/get_song.png)
