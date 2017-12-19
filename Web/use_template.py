@@ -22,7 +22,11 @@ def home():
     return render_template('home.html')
 
 @app.route('/signin', methods=['GET'])
-def signin_from():
+def signin_form():
+    return render_template('form.html')
+
+@app.route('/signin', methods=['POST'])
+def signin():
     username = request.form['username']
     password = request.form['password']
     if username=='admin' and password=='password':
